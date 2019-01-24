@@ -23,12 +23,7 @@ checkstyle {
     toolVersion '8.13'
     configFile file("C:/Users/Anna Riegelmann/Documents/SE/ex09/flashcards/checkstyle.xml")//"config/checkstyle/checkstyle.xml")
 }
-checkstyleMain {
-    source ='src/main/java'
-}
-checkstyleTest {
-    source ='src/test/java'
-}
+
 
 spotbugs{
     ignoreFailures=false
